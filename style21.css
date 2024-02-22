@@ -1,0 +1,24 @@
+img {
+    width: 400px;
+    height: 250px;
+}
+.slider {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+}
+.controls {
+    position: relative;
+}
+.btnPrev {
+    position: absolute;
+    left: 507px;
+}
+.btnNext {
+    position: absolute;
+    right: 499px;
+}
+.hidden {
+    display: none;
+}
+
