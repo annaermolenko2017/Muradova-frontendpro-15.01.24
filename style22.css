@@ -1,0 +1,11 @@
+h1 {
+    margin-left: 14px;
+}
+.votingRow {
+    display: flex;
+}
+
+.smiles {
+    cursor: pointer;
+    margin: 10px;
+}
