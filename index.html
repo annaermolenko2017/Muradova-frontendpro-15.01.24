@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Muradova-frontendpro</title>
+    <link rel="stylesheet" href="style26.css">
+    <title>Muradova-frontendpro-13.03.24</title>
 </head>
 <body>
+
+<label for="postIdInput">Введіть ID поста (1-100): </label>
+<input type="number" id="postIdInput" min="1" max="100">
+<button onclick="searchPost()">Пошук</button>
+
+<div id="postContainer"></div>
+<button id="commentsBtn" style="display: none;" onclick="getComments()">Отримати коментарі</button>
+<div id="commentsContainer"></div>
+
+<script src="main26.js"></script>
 
 </body>
 </html>
